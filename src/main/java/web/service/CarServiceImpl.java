@@ -10,8 +10,6 @@ import java.util.stream.Collectors;
 @Service
 public class CarServiceImpl implements CarService {
 
-    private List<Car> carList = getCars();
-
 
     @Override
     public List<Car> getNumOfCars(int count) {
